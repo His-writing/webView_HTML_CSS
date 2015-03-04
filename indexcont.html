@@ -1,0 +1,203 @@
+
+<!doctype html><html lang="zh-cn"><head>
+    <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title></title>
+            <script type="text/javascript" >
+                function replaceImg(imgSrcs){
+                    var imgs = document.getElementsByTagName('img');
+                    for ( var i = 0; i < imgs.length; i++ ){
+                        //alert(imgs[i]);
+                        //imgs[i].setAttribute("src", imgSrcs[i]);
+                    }
+                }
+            </script>
+            <style>
+                /*
+                 html 是标签，lang="zh-cn" 性属说明这个html内容是以中文为显示和阅读基础。
+                 meta charset为网页提供了一种编码方式,否则页面很可能出现乱码.
+                 UTF-8 是没有国家的编码,也就是独立于任何一种语言,任何语言都可以使用
+                 
+                 <meta name="robots" content="all">
+                 有时候会有一些站点内容，不希望被ROBOTS抓取而公开。为了解决这个问题，ROBOTS开发界提供了两个办法：一个是robots.txt，另一个是The Robots META标签。
+                 <meta name="Robots" contect="all|none|index|noindex|follow|nofollow">  默认是all
+                 其中的属性说明如下：
+                 设定为all：文件将被检索，且页面上的链接可以被查询；
+                 设定为none：文件将不被检索，且页面上的链接不可以被查询；
+                 设定为index：文件将被检索；
+                 设定为follow：页面上的链接可以被查询；
+                 设定为noindex：文件将不被检索，但页面上的链接可以被查询；
+                 设定为nofollow：文件将不被检索，页面上的链接可以被查询。
+                 */
+            
+            /*文档的内容... ...*/
+            /*修饰body  里的内容*/
+            body,p,input,h1,h2,h3,h4,h5,h6,em,ul,li,dl,dt,dd,form {
+                font-family: "arial","Helvetica","STHeiti","DroidSans";
+                font-style: normal;
+                margin: 0.4em 0.4em;
+                padding: 0;
+                list-style:none;
+                vertical-align: middle;
+                font-size:16px;
+            }
+            a {
+                color: #cc0000;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin: 1.5em 0em;
+            }
+            h3{
+                font-size: 1.2em;
+                margin: 1.2em 0em;
+                text-indent:2em;
+            }
+            h4{
+                font-size: 1.1em;
+                margin: 1.1em 0em;
+                text-indent:2em;}
+            .title
+            {
+                font-family: "arial","Helvetica","STHeiti","DroidSans";
+                font-weight:bold;
+                padding:0em;
+                font-size: 1.5em;
+                margin: 1em 0.4em;
+                text-indent:0em;
+            }
+            
+            .author
+            {
+                font-size:0.8em;
+                padding:0.4em 0;
+                margin:0em 0.4em;
+                text-indent:0em;
+                color:gray;}
+            .from
+            {
+                font-size:0.8em;
+                padding:0.4em 0;
+                margin: 0em 0.4em;
+                color:#cc0000;
+                text-indent:0em;}
+            
+            /*
+             .sigil_split_marker
+             {
+             height:1px;
+             border:none;
+             border-top:1px solid #ddd;
+             margin:0em 0.4em;
+             margin-top:-0.1em;
+             }
+             */
+            
+            
+            .sigil_split_marker
+            {
+                height:1px;
+                border:none;
+                border-top:1px solid #918e8e;
+                margin:0em 0.4em;
+                margin-top:-0.1em;
+            }
+            
+            
+            .abstract
+            {
+                font-size:1em;
+                line-height:1.6em;
+                padding:1.2em;
+                margin:1em 0.4em;
+                background-color:#efefef;
+                color:#666;
+                border-radius:0.5em;
+                text-indent:0em;
+                /*  display:none;   */
+            }
+            
+            p{
+                font-size:1em;
+                text-indent:2em;
+                line-height:1.6em
+            }
+            
+            .content
+            {
+                font-family: "STHeiti","arial","Helvetica","DroidSans";
+                font-size:1em;
+                text-align:justify;
+                text-indent:2em;
+                
+                padding:0em 0em;
+                margin:0em 0em;
+                margin-top:1em;
+                text-justify: inter-ideograph;
+                line-height:1.6em
+            }
+            
+            img,.image
+            {
+                text-indent:0em;
+                margin:0.8em 0;
+                text-align:center;
+                font-size:0.8em;
+                color:gray;
+                text-indent:0em;
+                margin-left:-2.5em !important;
+                max-width:295px !important;
+                height:auto !important;
+            }
+            
+            .blockquote s
+            {
+                border-left:solid 2px silver;
+                padding-left:0.5em;margin:0em}
+            
+            .lastwords
+            {
+                font-size:0.8em;
+                line-height:1.3em;
+                text-align:right;
+                text-indent:0em;
+                padding:0em;
+                margin-top:0.8em;
+                color:#666;
+            }
+            .zy-icon {
+                background-color: #990000;
+                color: #fff;
+                display: inline-block;
+                font-size: 12px;
+                height: 15px;
+                line-height: 15px;
+                text-align: center;
+                width: 30px;
+                vertical-align: 1px;
+                margin-right: 0px
+            }
+            
+            /*风格标签，用于代码识别*/
+            /*div 修饰文章*/
+            <[#style#]>
+                </style>
+            </head>
+<body>
+    <div class="title"><[#title#]></div>
+    <div class="author"><[#author#]></div>
+    <div class="from">
+        <hr class="sigil_split_marker" />
+        <[#from#]>
+            </div>
+    <div class="abstract"><[#abstract#]></div>
+    <!--<div class="image"><img alt="" src="http://www.baidu.com/img/bdlogo.gif" /></div>-->
+    <!-- <div class=""><[#image#]></div>-->
+    
+    <div class="content"><[#content#]></div>
+    
+</body>
+</html>
+
